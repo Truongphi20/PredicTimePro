@@ -1,0 +1,9 @@
+Activity	Optimistic (a)	Most Likely (m)	Pessimistic (b)	Predecessors
+A	3	4	11	-
+B	2	5	8	A
+C	3	6	9	A
+D	10	13	22	B,C
+E	4	5	12	B
+F	1	4	7	D
+G	6	8	16	C
+H	1	2	3	E,F,G
